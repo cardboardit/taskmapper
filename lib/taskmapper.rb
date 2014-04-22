@@ -4,20 +4,6 @@
   active_resource
 }.each {|lib| require lib }
 
-%w{
-  common
-  helper
-  project
-  ticket
-  comment
-  authenticator
-  provider
-  exception
-  dummy/dummy.rb
-  tester/tester.rb
-  version
-}.each {|lib| require File.dirname(__FILE__) + '/taskmapper/' + lib }
-
 # This is the TaskMapper class
 class TaskMapper
   attr_reader :provider, :symbol
@@ -47,3 +33,17 @@ class TaskMapper
     raise TaskMapper::Exception.new("This method must be reimplemented in the provider")
   end
 end
+
+%w{
+  common
+  helper
+  project
+  ticket
+  comment
+  authenticator
+  provider
+  exception
+  dummy/dummy.rb
+  tester/tester.rb
+  version
+}.each {|lib| require File.dirname(__FILE__) + '/taskmapper/' + lib }
