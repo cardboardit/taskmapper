@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activeresource", "~> 4.0"
-  spec.add_dependency "activesupport", "~> 4.0"
-  spec.add_dependency "hashie", "~> 2.0"
+  spec.add_dependency "activesupport", "~> 4.2.4"
+  spec.add_dependency "hashie", "~> 3.4"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rdoc", "~> 4.0"
-  spec.add_development_dependency "rspec", "~> 2.14.1"
+  spec.add_development_dependency "rdoc", "~> 4.2"
+  spec.add_development_dependency "rspec", "~> 3.3"
 end
