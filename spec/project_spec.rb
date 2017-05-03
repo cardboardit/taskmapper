@@ -110,7 +110,7 @@ describe "Projects" do
         end
 
         it "persists the new project" do
-          expect(project.save).to be_true
+          expect(project.save).to be true
         end
       end
 

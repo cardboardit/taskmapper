@@ -5,5 +5,5 @@ require 'taskmapper/dummy/dummy.rb'
 require 'rspec'
 
 RSpec.configure do |config|
-  config.color_enabled = true
+  config.color = true
 end
