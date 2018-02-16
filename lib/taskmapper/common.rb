@@ -20,6 +20,7 @@ module TaskMapper::Provider
       # Automatic extension of class methods on include
       def self.included(base)
         base.extend ClassMethods
+        base.disable_warnings
       end
 
       # The initializer

@@ -18,10 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activeresource", "~> 4.0"
-  spec.add_dependency "activesupport", "~> 4.2.4"
-  spec.add_dependency "hashie", "~> 3.4"
+  spec.add_dependency "activeresource", "~> 5.0.0"
+  spec.add_dependency "activesupport", "~> 5.0.0"
+  spec.add_dependency "hashie"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rdoc", "~> 4.2"
-  spec.add_development_dependency "rspec", "~> 3.3"
+  spec.add_development_dependency "rdoc"
+  spec.add_development_dependency "rspec"
 end
