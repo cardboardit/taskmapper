@@ -2,15 +2,15 @@ PATH
   remote: .
   specs:
     taskmapper (1.0.2.1)
-      activeresource (~> 5.0.0)
-      activesupport (~> 5.0.0)
+      activeresource (>= 5.0.0)
+      activesupport (>= 5.0.0)
       hashie
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.0.6)
-      activesupport (= 5.0.6)
+    activemodel (5.1.5)
+      activesupport (= 5.1.5)
     activemodel-serializers-xml (1.0.2)
       activemodel (> 5.x)
       activesupport (> 5.x)
@@ -19,7 +19,7 @@ GEM
       activemodel (>= 5.0, < 6)
       activemodel-serializers-xml (~> 1.0)
       activesupport (>= 5.0, < 6)
-    activesupport (5.0.6)
+    activesupport (5.1.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
       minitest (~> 5.1)
